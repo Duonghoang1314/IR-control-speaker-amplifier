@@ -16,7 +16,7 @@ Button::Button(uint8_t pin, uint8_t puEnable, uint8_t invert, uint32_t dbTime)
   _changed = 0;
   _lastChange = _time;
 }
-
+//123
 void Button::setDebounce(uint32_t dbTime) {
   _dbTime = dbTime;
 }
